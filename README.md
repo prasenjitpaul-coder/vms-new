@@ -110,8 +110,8 @@ tutedude-final-project/
 ### 1 — Clone the repo
 
 ```bash
-git clone https://github.com/Inderjeet8877/tutedude_final_project.git
-cd tutedude_final_project
+git@github.com:prasenjitpaul-coder/vms-new.git
+cd vms-new
 ```
 
 ### 2 — Backend environment variables
