@@ -23,7 +23,7 @@ connectDB();
 app.use(cors({
   origin:  [
     'http://localhost:5173',
-    'https://vms-new-sigma.vercel.app',
+    'https://vms-evhn0s02d-prasenjitpaulcoder-6141s-projects.vercel.app',
   ],
   credentials: true
 }));
