@@ -1,5 +1,6 @@
 
-<img width="1920" height="1032" alt="frontend and 6 more pages - Personal - Microsoft​ Edge 6_5_2026 11_24_27 PM" src="https://github.com/user-attachments/assets/6854def2-e2f3-45af-b6cd-addeead98740" />
+<img width="1920" height="954" alt="frontend and 6 more pages - Personal - Microsoft​ Edge 6_5_2026 11_24_27 PM" src="https://github.com/user-attachments/assets/9d82301c-0882-4796-a591-98447e1fde96" />
+
 
 
 
