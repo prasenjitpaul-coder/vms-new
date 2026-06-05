@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const visitorController = require('../controllers/visitor.controller');
-const authMiddleware = require('../middleware/auth.middleware');
+const visitorController = require('../controllers/visitor.controller.js');
+const authMiddleware = require('../middleware/auth.middleware.js');
 
 // Protect all routes
 router.use(authMiddleware.protect);
