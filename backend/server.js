@@ -21,7 +21,8 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite default port
+  origin: 'http://localhost:5173',// Vite default port
+  'https://vms-new-sigma.vercel.app', 
   credentials: true
 }));
 app.use(express.json());
