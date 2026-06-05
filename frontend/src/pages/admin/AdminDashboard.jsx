@@ -55,7 +55,7 @@ const AdminDashboard = () => {
       animate="show"
       className="space-y-8"
     >
-      {/* Header section */}
+   
       <motion.div variants={itemVariants} className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 bg-slate-800/30 backdrop-blur-md border border-slate-700/50 p-6 rounded-3xl">
         <div className="flex items-center gap-4">
           <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center border border-indigo-500/30">
@@ -82,7 +82,7 @@ const AdminDashboard = () => {
         </div>
       </motion.div>
 
-      {/* Stats Grid */}
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {[
           { title: 'Total Expected Today', value: stats?.totalVisitors || 0, icon: Users, color: 'from-blue-500 to-cyan-400', shadow: 'shadow-blue-500/20', bg: 'bg-blue-500/10 text-blue-400' },
@@ -105,14 +105,14 @@ const AdminDashboard = () => {
                 <h3 className="text-4xl font-black text-white mb-1 tracking-tight">{stat.value}</h3>
                 <p className="text-slate-400 font-medium text-sm tracking-wide uppercase">{stat.title}</p>
               </div>
-              {/* Bottom gradient border */}
+            
               <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${stat.color} opacity-50`} />
             </motion.div>
           );
         })}
       </div>
 
-      {/* Activity Feed */}
+
       <motion.div variants={itemVariants} className="glass-card overflow-hidden">
         <div className="px-6 py-5 border-b border-slate-700/50 bg-slate-800/50 flex items-center justify-between">
           <div className="flex items-center gap-3">
