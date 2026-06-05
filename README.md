@@ -1,3 +1,12 @@
+
+<img width="1920" height="1032" alt="frontend and 6 more pages - Personal - Microsoft​ Edge 6_5_2026 11_24_27 PM" src="https://github.com/user-attachments/assets/6854def2-e2f3-45af-b6cd-addeead98740" />
+
+
+
+
+
+
+
 # Visitor Pass Management System
 
 A full-stack MERN application that digitizes visitor management for offices and facilities. Visitors receive a QR-code PDF pass via email, and security guards scan it to log check-in and check-out events.
