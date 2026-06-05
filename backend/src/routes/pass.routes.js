@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const passController = require('../controllers/pass.controller');
-const authMiddleware = require('../middleware/auth.middleware');
+const passController = require('../controllers/pass.controller.js');
+const authMiddleware = require('../middleware/auth.middleware.js');
 
 // Require login for all pass routes
 router.use(authMiddleware.protect);
