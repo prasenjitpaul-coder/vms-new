@@ -1,5 +1,5 @@
 const express = require('express');
-const { scanPass, getLogs, verifyOtpAndCheckIn } = require('../controllers/checkLog.controller.js');
+const { scanPass, getLogs, verifyOtpAndCheckIn } = require('../controllers/checklog.controller.js');
 const { protect, authorize } = require('../middleware/auth.middleware.js');
 
 const router = express.Router();
