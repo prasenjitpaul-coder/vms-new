@@ -23,7 +23,7 @@ connectDB();
 app.use(cors({
   origin:  [
     'http://localhost:5173',
-    'https://vms-8qnibjtua-prasenjitpaulcoder-6141s-projects.vercel.app',
+    'https://vms-5eq69vpzh-prasenjitpaulcoder-6141s-projects.vercel.app',
   ],
   credentials: true
 }));
